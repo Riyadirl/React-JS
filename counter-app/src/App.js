@@ -1,10 +1,9 @@
 import React from 'react';
-
+import CounterPage from './pages/CounterPage';
 const App = () => {
   return (
     <div>
-      <h1>React 18 Alpha</h1>
-      <button className='btn btn-danger'> hi</button>
+      <CounterPage />
     </div>
   );
 };
